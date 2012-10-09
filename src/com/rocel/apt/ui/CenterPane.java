@@ -34,7 +34,7 @@ public class CenterPane extends JPanel {
 	}
 
 	private JPanel getTranslationPanel() {
-		JPanel panel = new JPanel();
+		JRoundedPanel panel = new JRoundedPanel();
 		panel.setLayout(new BorderLayout(0, VGAP));
 		panel.setBorder(new EmptyBorder(HGAP, HGAP, HGAP, HGAP));
 		panel.setBackground(Color.WHITE);
