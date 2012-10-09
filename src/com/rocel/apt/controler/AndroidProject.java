@@ -53,7 +53,7 @@ public class AndroidProject {
 				} else {
 					return null;
 				}
-			}else {
+			} else {
 				return null;
 			}
 		} catch (Exception e) {
